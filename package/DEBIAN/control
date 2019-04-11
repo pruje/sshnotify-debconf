@@ -1,0 +1,9 @@
+Package: ssh-notify
+Version: 1.0.0
+Section: utils
+Priority: optional
+Architecture: all
+Depends: bash, sendmail
+Maintainer: Jean Prunneaux <jean@prunneaux.com>
+Homepage: https://github.com/pruje/ssh-notify
+Description: A tool for sending emails when

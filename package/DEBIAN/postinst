@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# run install command
+/usr/src/ssh-notify/ssh-notify.sh --install &> /dev/null <<EOF
+n
+EOF
+
+# do not break uninstall process if the previous command fails
+true
