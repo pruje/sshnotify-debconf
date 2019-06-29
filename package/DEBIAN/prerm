@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# run uninstall command
-/usr/src/ssh-notify/ssh-notify.sh --uninstall > /dev/null
+# run uninstall script
+/usr/src/ssh-notify/uninstall.sh > /dev/null
 
 # do not break uninstall process if the previous command fails
 true

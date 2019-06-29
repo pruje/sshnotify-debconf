@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# run install command
-/usr/src/ssh-notify/ssh-notify.sh --force-install > /dev/null
+# run install script (in force mode, non interactive)
+/usr/src/ssh-notify/install.sh -f > /dev/null
 
 # do not break uninstall process if the previous command fails
 true
