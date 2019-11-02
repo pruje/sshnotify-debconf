@@ -6,4 +6,4 @@ Architecture: all
 Depends: bash
 Maintainer: Jean Prunneaux <jean@prunneaux.com>
 Homepage: https://github.com/pruje/ssh-notify
-Description: A tool for sending emails when
+Description: A tool for sending emails when someone connects via SSH
